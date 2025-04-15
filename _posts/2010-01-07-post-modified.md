@@ -1,14 +1,28 @@
 ---
-title: "Post: Modified Date"
-last_modified_at: 2016-03-09T16:20:02-05:00
+title: "我的第一篇技术博客：Hello AI World!"
+date: 2025-04-15
+last_modified_at: 2025-04-15
 categories:
   - Blog
+  - Machine Learning
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - Python
+  - GitHub Pages
+  - 教程
+toc: true  # 是否显示目录
 ---
 
-This post has been updated and should show a modified date if used in a layout.
+欢迎来到我的第一篇技术博客！今天我尝试用 GitHub Pages + Jekyll + Minimal Mistakes 写博客，并展示一段代码和一张可爱的图片 😸
 
-All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
+---
+
+## 💻 代码展示
+
+你可以使用代码块（```语言名）来高亮显示代码，比如 Python：
+
+```python
+def hello_ai():
+    print("Hello, Machine Learning World!")
+
+hello_ai()
+```
