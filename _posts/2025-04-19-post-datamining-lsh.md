@@ -25,14 +25,13 @@ Jaccard similarity measures how similar two sets are by comparing their intersec
 
 No more talking — let's drop the formula:
 
-\[
-J(A, B) = \frac{|A \cap B|}{|A \cup B|}
-\]
+J(A, B) = |A ∩ B| / |A ∪ B|
+
 
 Where:
-- \( A \) and \( B \) are two sets,
-- \( |A \cap B| \) is the number of elements in common,
-- \( |A \cup B| \) is the total number of unique elements in both sets.
+- A and B are two sets,
+- |A ∩ B| is the number of elements in common,
+- |A ∪ B| is the total number of unique elements in both sets.
 
 
 ## ✨How it works?
