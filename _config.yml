@@ -7,16 +7,17 @@ github_username: haya-hyh
 minimal_mistakes_skin: "mint"
 search: true
 
+# 使用 Minimal Mistakes 远程主题
 remote_theme: mmistakes/minimal-mistakes
 
-# Build settings
+# Markdown 引擎 + MathJax 支持
 markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
 mathjax: true
 
-# 加入 MathJax 渲染配置脚本
+# MathJax 渲染脚本路径（你已在 assets/js/mathjax.js 里写好了）
 head_scripts:
   - /assets/js/mathjax.js
 
@@ -24,12 +25,13 @@ head_scripts:
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: # Europe/Stockholm 可加上你的时区
+timezone: Europe/Stockholm  # ✅ 建议加上你所在时区
 
+# 包含页面目录
 include:
   - _pages
 
-# Plugins
+# 插件
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -38,7 +40,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Author
+# 作者信息
 author:
   name   : "Yonghong Huang"
   avatar : "/assets/images/cat.jpg"
@@ -51,14 +53,14 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/haya-hyh"
 
-# Footer
+# 页脚
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/haya-hyh"
 
-# Default values for posts and pages
+# 默认页面设置
 defaults:
   - scope:
       path: ""
@@ -77,7 +79,7 @@ defaults:
       layout: single
       author_profile: true
 
-# Archives
+# 分类归档
 category_archive:
   type: liquid
   path: /categories/
