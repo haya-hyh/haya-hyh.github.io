@@ -11,18 +11,17 @@ tags:
   - Data Mining
 toc: true
 layout: single
-mathjax: true
-
+mathjax: false
 ---
 
-
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 An introduction to Locality-Sensitive Hashing (LSH), covering its core idea, how it works and a Python implementation.
 
 ---
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+
 ## ✅Getting Ready
 
 Before diving into the core concept of LSH, it's helpful to understand **Jaccard similarity**, since many problems can be framed as finding similar sets.
@@ -35,12 +34,12 @@ No more talking — let's drop the formula:
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 \]
 
-
-
 Where:
-- A and B are two sets,
-- |A ∩ B| is the number of elements in common,
-- |A ∪ B| is the total number of unique elements in both sets.
+- \( A \) and \( B \) are two sets,  
+- \( |A \cap B| \) is the number of elements in common,  
+- \( |A \cup B| \) is the total number of unique elements in both sets.
+
+---
 
 
 ## ✨How it works?
