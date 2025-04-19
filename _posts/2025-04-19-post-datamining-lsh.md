@@ -14,9 +14,6 @@ layout: single
 mathjax: false
 ---
 
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 An introduction to Locality-Sensitive Hashing (LSH), covering its core idea, how it works and a Python implementation.
 
@@ -39,7 +36,7 @@ Where:
 - \( |A \cap B| \) is the number of elements in common,  
 - \( |A \cup B| \) is the total number of unique elements in both sets.
 
----
+
 
 
 ## ✨How it works?
