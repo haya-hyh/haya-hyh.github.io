@@ -25,7 +25,10 @@ Jaccard similarity measures how similar two sets are by comparing their intersec
 
 No more talking — let's drop the formula:
 
-J(A, B) = |A ∩ B| / |A ∪ B|
+\[
+J(A, B) = \frac{|A \cap B|}{|A \cup B|}
+\]
+
 
 
 Where:
