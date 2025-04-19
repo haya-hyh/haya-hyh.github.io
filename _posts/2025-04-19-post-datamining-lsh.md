@@ -14,9 +14,15 @@ layout: single
 mathjax: true
 
 ---
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 An introduction to Locality-Sensitive Hashing (LSH), covering its core idea, how it works and a Python implementation.
 
 ---
+
 ## ✅Getting Ready
 
 Before diving into the core concept of LSH, it's helpful to understand **Jaccard similarity**, since many problems can be framed as finding similar sets.
