@@ -10,6 +10,7 @@ tags:
   - Python
   - Data Mining
 toc: true
+mathjax: true
 
 ---
 An introduction to Locality-Sensitive Hashing (LSH), covering its core idea, how it works and a Python implementation.
@@ -55,6 +56,7 @@ As a first idea, we might consider building a characteristic matrix, where each 
 This binary matrix representation looks more structured, and we can leverage many efficient libraries, such as NumPy, to perform matrix operations on it.
 
 #### Example: Characteristic Matrix
+
 | Shingle | Doc1 | Doc2 | Doc3 |
 |---------|------|------|------|
 | abc     | 1    | 1    | 0    |
@@ -89,6 +91,6 @@ And for each column (document), this sequence of **Minvalue** is called its sign
 
 ### Step 3: LSH
 
-![The big picture](image/image1.png)
+![The big picture](../assets/images/image1.png)
 ## 💻 Code implement
 Will update here https://github.com/haya-hyh/datamining/tree/main/HW1
