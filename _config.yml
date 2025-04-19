@@ -86,7 +86,10 @@ footer:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
-
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
 defaults:
   # _posts
   - scope:
