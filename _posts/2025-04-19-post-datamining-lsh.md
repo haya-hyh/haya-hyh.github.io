@@ -10,6 +10,7 @@ tags:
   - Python
   - Data Mining
 toc: true
+layout: single
 mathjax: true
 
 ---
@@ -91,6 +92,6 @@ And for each column (document), this sequence of **Minvalue** is called its sign
 
 ### Step 3: LSH
 
-![The big picture](../assets/images/image1.png)
+![The big picture](/assets/img/lsh-diagram.png)
 ## 💻 Code implement
 Will update here https://github.com/haya-hyh/datamining/tree/main/HW1
