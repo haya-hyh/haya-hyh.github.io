@@ -16,7 +16,7 @@ kramdown:
   input: GFM
   math_engine: mathjax
 mathjax: true
-
+use_math: true 
 # MathJax 渲染脚本路径（你已在 assets/js/mathjax.js 里写好了）
 head_scripts:
   - /assets/js/mathjax.js
