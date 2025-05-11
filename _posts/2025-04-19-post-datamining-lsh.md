@@ -11,7 +11,7 @@ tags:
   - Data Mining
 toc: true
 layout: single
-use_math: true
+mathjax: true
 ---
 
 
